@@ -44,20 +44,20 @@
     gap: 40px;
     }
     .introducao h1{
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .introducao h1::before{
         width: 30px;
-        height: 90px;
-        top: -61px;
-        left: -35px;
+        height: 15px;
+        top: -15px;
+        left: 2px;
     }
 }
 
 @media (max-width: 500px){
     .introducao{
         grid-template-columns: 1fr;
-        margin-left: 40px;
+        
     }
 
     .introducao img{
@@ -72,8 +72,8 @@
     }
     .introducao h1::before{
         width: 30px;
-        height: 90px;
-        top: -61px;
-        left: -35px;
+        height: 15px;
+        top: -15px;
+        left: 2px;
     }
 }
